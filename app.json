@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "FF X BET",
+    "slug": "ffxbet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#023F80"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.desuntechnology.ffxbet",
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "versionCode": 1
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#023F80",
+      "barStyle": "light-content"
+    },
+    "notification": {
+      "icon": "./assets/pn-icon.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ed811a69-909a-4117-9557-e962734cda98"
+      }
+    }
+  }
+}

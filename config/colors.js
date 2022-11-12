@@ -1,0 +1,21 @@
+export default {
+	primary: "#023F80",
+	secondary: "#ffb711",
+	black: "#000",
+	white: "#fff",
+	medium: "#6e6969",
+	light: "#f8f4f4",
+	dark: "#0c0c0c",
+	grey: "grey",
+	lightGrey: "#eeecee",
+	darkgrey: "#a9a9a9",
+	lightBlue: "#80DAF5",
+	background: "#eeeeee",
+	success: "#218838",
+	info: "#117a8b",
+	warning: "#e0a800",
+	danger: "#ff5252",
+	skeletonBackground: "#e0e0e0",
+	inactiveTabLabel: "#ffffff",
+	red: 'red'
+};
